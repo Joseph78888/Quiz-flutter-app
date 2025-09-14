@@ -1,6 +1,10 @@
+// Import the QuizQuestion model to structure the quiz questions.
 import 'package:quizz_app/model/quiz_question.dart';
 
+// A constant list of QuizQuestion objects.
+// This list holds all the questions and their corresponding answers for the quiz.
 const questions = [
+
   QuizQuestion('What are the main building blocks of Flutter UIs?', [
     'Widgets',
     'Components',

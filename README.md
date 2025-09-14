@@ -1,16 +1,58 @@
-# quizz_app
+# Quiz App
 
-A new Flutter project.
+A simple and interactive quiz application built with Flutter. This app presents a series of questions to the user and provides a summary of their performance at the end.
+
+## Features
+
+- **Start Screen**: A welcoming screen with a button to start the quiz.
+- **Question Screen**: Displays questions with shuffled answer options.
+- **Results Screen**: Shows the user how many questions they answered correctly and provides a summary of their answers.
+- **State Management**: The app effectively manages state to switch between different screens and track user progress.
+- **Custom Widgets**: The UI is built with a set of custom widgets for a clean and organized codebase.
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `lib/`
+  - `main.dart`: The entry point of the application.
+  - `quiz.dart`: The main widget that manages the state of the app.
+  - `data/`: Contains the quiz questions.
+    - `questions.dart`: A list of `QuizQuestion` objects.
+  - `models/`: Contains the data models for the app.
+    - `quiz_question.dart`: The data model for a single quiz question.
+  - `ui/`: Contains the UI components of the app.
+    - `answer_button.dart`: A custom button for answer options.
+    - `question_summary.dart`: A widget to display the quiz summary.
+    - `screens/`: Contains the different screens of the app.
+      - `start_screen.dart`: The initial screen of the app.
+      - `question_screen.dart`: The screen that displays the questions.
+      - `resulte_screen.dart`: The screen that displays the results.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a local copy up and running, follow these simple steps.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/quizz_app.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd quizz_app
+   ```
+3. Install packages
+   ```sh
+   flutter pub get
+   ```
+4. Run the app
+   ```sh
+   flutter run
+   ```
+
