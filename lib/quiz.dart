@@ -26,7 +26,7 @@ class _QuizState extends State<Quiz> {
   void chooseAnswer(String answer) {
     selectAnswers.add(answer);
 
-    // If the number of selected answers equals the total number of questions, 
+    // If the number of selected answers equals the total number of questions,
     // switch to the results screen.
     if (selectAnswers.length == questions.length) {
       setState(() {
@@ -64,7 +64,7 @@ class _QuizState extends State<Quiz> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color.fromARGB(255, 108, 27, 179),
+                const Color.fromARGB(255, 145, 46, 232),
                 const Color.fromARGB(255, 101, 38, 212),
               ],
               begin: Alignment.topLeft,
@@ -78,4 +78,3 @@ class _QuizState extends State<Quiz> {
     );
   }
 }
-

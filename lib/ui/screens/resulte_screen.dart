@@ -1,7 +1,8 @@
 // Import necessary packages for Flutter UI, data, and custom widgets.
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quizz_app/data/questions.dart';
-import 'package:quizz_app/ui/question_summary.dart';
+import 'package:quizz_app/ui/summary_stuff/question_summary.dart';
 
 // This widget displays the results of the quiz.
 class ResulteScreen extends StatelessWidget {
@@ -20,7 +21,8 @@ class ResulteScreen extends StatelessWidget {
       summary.add({
         'question_index': i,
         'question': questions[i].question,
-        'correct_answer': questions[i].answers[0], // The first answer is always correct.
+        'correct_answer':
+            questions[i].answers[0], // The first answer is always correct.
         'user_answer': choosenAnswer[i],
       });
     }
@@ -54,9 +56,9 @@ class ResulteScreen extends StatelessWidget {
             Text(
               'You answered $numOfCorrectQuestions out of $numOfTotalQuestons questions correctly!',
               textAlign: TextAlign.center,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 18,
+              style: GoogleFonts.lato(
+                color: const Color.fromARGB(255, 235, 213, 255),
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -67,8 +69,11 @@ class ResulteScreen extends StatelessWidget {
             // A button to allow the user to repeat the quiz.
             TextButton.icon(
               onPressed: () {},
-              icon: const Icon(Icons.replay_rounded),
-              label: const Text('Repeat Quiz'),
+              icon: const Icon(Icons.replay_rounded, color: Colors.white),
+              label: const Text(
+                'Repeat Quiz',
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ],
         ),
@@ -76,4 +81,3 @@ class ResulteScreen extends StatelessWidget {
     );
   }
 }
-
