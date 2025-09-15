@@ -1,6 +1,5 @@
 // Import the material design package from Flutter.
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:quizz_app/ui/summary_stuff/summary_item.dart';
 
 // A widget to display a summary of the quiz questions, user's answers, and correct answers.

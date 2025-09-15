@@ -53,11 +53,16 @@ class _QuizState extends State<Quiz> {
     }
 
     if (activeScreen == 'results-screen') {
-      screenWidget = ResulteScreen(choosenAnswer: selectAnswers);
+      screenWidget = ResulteScreen(
+        choosenAnswer: selectAnswers,
+        repeatQuiz: switchScreen,
+      );
+      selectAnswers = [];
     }
 
     // The MaterialApp widget is the root of the app's UI.
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         // The body of the scaffold is a Container with a gradient background.
         body: Container(

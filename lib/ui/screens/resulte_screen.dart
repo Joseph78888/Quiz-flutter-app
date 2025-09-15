@@ -7,8 +7,13 @@ import 'package:quizz_app/ui/summary_stuff/question_summary.dart';
 // This widget displays the results of the quiz.
 class ResulteScreen extends StatelessWidget {
   // The constructor requires a list of the user's chosen answers.
-  const ResulteScreen({super.key, required this.choosenAnswer});
+  const ResulteScreen({
+    super.key,
+    required this.choosenAnswer,
+    required this.repeatQuiz,
+  });
 
+  final void Function() repeatQuiz;
   // A list of the answers selected by the user.
   final List<String> choosenAnswer;
 
@@ -68,7 +73,7 @@ class ResulteScreen extends StatelessWidget {
             const SizedBox(height: 30),
             // A button to allow the user to repeat the quiz.
             TextButton.icon(
-              onPressed: () {},
+              onPressed: repeatQuiz,
               icon: const Icon(Icons.replay_rounded, color: Colors.white),
               label: const Text(
                 'Repeat Quiz',
