@@ -3,7 +3,7 @@
 A simple and interactive quiz application built with Flutter. This app presents a series of questions to the user and provides a summary of their performance at the end.
 
 # Screens
-<img width="270" height="600" alt="Screenshot_1757894690" src="https://github.com/user-attachments/assets/582cffc8-6ce4-4842-b21a-4e33ec640938" />    <img width="270" height="600" alt="Screenshot_1757894698" src="https://github.com/user-attachments/assets/d03f4ad4-f08a-4a80-b30c-d1091a0337be" />    <img width="270" height="600" alt="Screenshot_1757894714" src="https://github.com/user-attachments/assets/fc70f4eb-e923-4ab2-a90b-06941aa7deba" />
+<img width="270" height="600" alt="Screenshot_1757894690" src="https://github.com/user-attachments/assets/582cffc8-6ce4-4842-b21a-4e33ec640938" />  <img width="270" height="600" alt="Screenshot_1757894698" src="https://github.com/user-attachments/assets/d03f4ad4-f08a-4a80-b30c-d1091a0337be" />  <img width="270" height="600" alt="Screenshot_1757894714" src="https://github.com/user-attachments/assets/fc70f4eb-e923-4ab2-a90b-06941aa7deba" />
 
 
 
