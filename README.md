@@ -1,8 +1,9 @@
 # Quiz App
 
 A simple and interactive quiz application built with Flutter. This app presents a series of questions to the user and provides a summary of their performance at the end.
+<img width="1080" height="2400" alt="Screenshot_1757894690" src="https://github.com/user-attachments/assets/582cffc8-6ce4-4842-b21a-4e33ec640938" />
 
-![alt text](Screenshot_1757894690.png) ![alt text](Screenshot_1757894698.png) ![alt text](Screenshot_1757894714.png)
+
 
 ## Features
 
