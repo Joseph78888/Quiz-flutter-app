@@ -26,14 +26,14 @@ The project is organized into the following directories:
   - `quiz.dart`: The main widget that manages the state of the app.
   - `data/`: Contains the quiz questions.
     - `questions.dart`: A list of `QuizQuestion` objects.
-  - `models/`: Contains the data models for the app.
+  - `model/`: Contains the data models for the app.
     - `quiz_question.dart`: The data model for a single quiz question.
   - `ui/`: Contains the UI components of the app.
     - `answer_button.dart`: A custom button for answer options.
-    - `question_summary.dart`: A widget to display the quiz summary.
+    - `summary_stuff/`: Contains widgets for the results summary.
     - `screens/`: Contains the different screens of the app.
       - `start_screen.dart`: The initial screen of the app.
-      - `question_screen.dart`: The screen that displays the questions.
+      - `questions_screen.dart`: The screen that displays the questions.
       - `resulte_screen.dart`: The screen that displays the results.
 
 ## Getting Started
@@ -48,7 +48,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/quizz_app.git
+   git clone https://github.com/Joseph78888/Quiz-flutter-app.git
    ```
 2. Navigate to the project directory
    ```sh
